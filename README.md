@@ -76,3 +76,91 @@
 
 </body>
 </html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+}
+
+header {
+    background: #0a3d91;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,255,0.6), rgba(0,0,0,0.6)), url('images/bg.jpg');
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: white;
+    color: #0a3d91;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.grid div {
+    background: #0a3d91;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0a3d91;
+    color: white;
+    border: none;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    background: green;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+footer {
+    background: #0a3d91;
+    color: white;
+    padding: 10px;
+}
